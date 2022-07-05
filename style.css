@@ -1,0 +1,220 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.top-container {
+  display: flex;
+}
+.top-container h1 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 4rem;
+}
+
+.top-paragraph {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 80px;
+  font-style: italic;
+}
+.top-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, slateblue, violet);
+  padding: 5px 40px;
+  border-radius: 45px;
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+  box-shadow: 2px 2px 60px 2px violet;
+}
+.top-button:hover {
+  background: linear-gradient(45deg, seagreen, green);
+  box-shadow: 2px 2px 60px 2px seagreen;
+}
+.text-color {
+  color: violet;
+}
+.half-width-top {
+  width: 100%;
+  margin: 10% 10% 0 10%;
+}
+.half-width-top-img {
+  height: 50%;
+  width: 50%;
+}
+
+.image-1 {
+  height: 900px;
+  width: 850px;
+}
+.middle-cotainer {
+  display: flex;
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  margin-top: 5%;
+  background-size: cover;
+}
+
+.half-width-2 {
+  width: 100%;
+  margin: 10% 10% 0 10%;
+  justify-items: left;
+}
+.half-width-2 h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.image-2 {
+  width: 400px;
+  height: 600px;
+}
+
+.paragraph-2 {
+  padding-bottom: 10%;
+  font-size: 20px;
+  font-weight: 400;
+  font-style: italic;
+}
+.button-2 {
+  text-decoration: none;
+  font-size: 40px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(45deg, red, #ff69b4);
+  box-shadow: 2px 2px 60px 0.1px #ff726f;
+  padding: 5px 40px;
+  border-radius: 45px;
+}
+
+.button-2:hover {
+  background: linear-gradient(45deg, #006994, slateblue);
+  box-shadow: 2px 2px 60px 0.1px slateblue;
+}
+.recipe-title {
+  text-align: center;
+}
+.recipe-title h1 {
+  font-size: 40px;
+}
+.recipe-title p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.section-three {
+  display: flex;
+}
+
+.box-1 {
+  border-radius: 20px;
+  box-shadow: 2px 2px 60px 2px whitesmoke;
+  height: 80%;
+  width: 80%;
+  margin: 2% 2% 2% 2%;
+}
+.box-1 img {
+  height: 500px;
+  width: 780px;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+.box-1 h1 {
+  font-size: 40px;
+  margin: 5%;
+}
+.box-1 p {
+  text-align: justify;
+  margin: 5%;
+  font-size: 20px;
+}
+.box-2 {
+  border-radius: 20px;
+  box-shadow: 2px 2px 60px 1px whitesmoke;
+  height: 80%;
+  width: 80%;
+  margin: 2% 2% 2% 2%;
+}
+.box-2 h1 {
+  font-size: 40px;
+  margin: 5%;
+}
+.box-2 p {
+  text-align: justify;
+  margin: 5%;
+  font-size: 20px;
+}
+.box-2 img {
+  height: 500px;
+  width: 780px;
+  margin: 5% 0 0 5%;
+}
+.social-media {
+  display: flex;
+
+  box-shadow: 2px 2px 60px 1px whitesmoke;
+  border-radius: 25px;
+  margin: 2%;
+  padding: 4%;
+  align-items: center;
+}
+.youtube {
+  text-align: center;
+  line-height: 1.6rem;
+  margin-left: 15%;
+}
+.youtube h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.youtube p {
+  font-size: 20px;
+}
+
+.instagram {
+  text-align: center;
+  line-height: 1.6rem;
+  margin-left: 15%;
+}
+.instagram h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.instagram p {
+  font-size: 20px;
+}
+
+.dribble {
+  text-align: center;
+  line-height: 1.6rem;
+  margin-left: 15%;
+}
+.dribble h1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+.dribble p {
+  font-size: 20px;
+}
+
+.last-section {
+  background-color: black;
+}
+.last {
+  color: white;
+  text-align: center;
+  padding: 5%;
+}
+.eat {
+  color: orange;
+}
+.fresh {
+  color: gray;
+}
+.last h1 {
+  word-spacing: 1rem;
+  font-size: 40px;
+}
+
+.last p {
+  font-size: 25px;
+}
